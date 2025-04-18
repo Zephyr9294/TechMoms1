@@ -1,0 +1,55 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #327C31;
+    color: #FBE4E4;
+}
+/* 
+Use CTRL+/ to insert a comment on anything in VS code.
+use a comma to style multiple selectors (header, footer)
+Masurements:
+    rem/em/px - most common
+    in inches
+    cm centimeters
+    pt for font types
+Padding or margin: "don't get into TRBL" acronym for top, right, bottom, left
+*/
+header, footer{
+background-color: #719948;
+color: #327C31;
+padding: 1rem;
+text-align: center;
+text-shadow: white 2 px 2px ;
+}
+{nav ul
+    list-style-type: none;
+}
+{nav ul li
+    display: inine-block;
+    padding: .sem;
+}
+nav
+.emphasis{
+
+}
+/*Table Styles*/
+table{
+    width: 60%; 
+    margin: 1em;
+    border-collapse: collapse;
+    
+}
+td, th{
+    border: 2px solid #719948;
+    padding: .5rem;
+}
+th{
+    background-color: #black;
+}
+caption{
+    padding: .5rem;
+    front-weight: bold;
+    Font-size: 1.5rem;
+}
+tr:hover{
+    background-color: #white;
+}
